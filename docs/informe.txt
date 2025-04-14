@@ -1,2 +1,2 @@
-Esta es la modificación en 'master'.
+Este es el cambio combinado: master + rama_conflicto.
 Este es el informe de la semana 5
