@@ -1,1 +1,2 @@
+Esta es la modificación en la rama 'rama_conflicto'.
 Este es el informe de la semana 5
