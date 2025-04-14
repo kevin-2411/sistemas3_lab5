@@ -4,6 +4,12 @@
 archivo_original="docs/informe.txt"
 directorio_respaldo="respaldos"
 
+# Verificar si el archivo original existe
+if [ ! -f "$archivo_original" ]; then
+    echo "Error: El archivo $archivo_original no existe. No se puede generar respaldo."
+    exit 1
+fi
+
 # Crear directorio de respaldos si no existe
 mkdir -p "$directorio_respaldo"
 
