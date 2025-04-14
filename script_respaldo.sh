@@ -17,8 +17,11 @@ mkdir -p "$directorio_respaldo"
 fecha=$(date +"%Y%m%d_%H%M%S")
 nombre_respaldo="informe_$fecha.txt"
 
-# Copiar el archivo original al directorio de respaldos con el nuevo nombre
+# Copiar el archivo original al directorio de respaldos
 cp "$archivo_original" "$directorio_respaldo/$nombre_respaldo"
 
-# Mostrar mensaje de confirmación
+# Registrar el respaldo en log_respaldo.txt
+echo "Respaldo generado el $(date +"%Y-%m-%d %H:%M:%S") -> $directorio_respaldo/$nombre_respaldo" >> log_respaldo.txt
+
+# Mensaje de confirmación
 echo "Respaldo generado en: $directorio_respaldo/$nombre_respaldo"

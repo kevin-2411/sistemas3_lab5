@@ -1,0 +1,2 @@
+Respaldo generado el lun 14 abr 2025 16:56:32 -05 en: respaldos/informe_20250414_165632.txt
+Respaldo generado el 2025-04-14 17:02:54 -> respaldos/informe_20250414_170254.txt
